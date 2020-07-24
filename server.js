@@ -9,11 +9,11 @@ app.get("/", function(req, res){
 });
 
 app.get("/Contact", function(req, res){
-  res.send("Contact me at histerlion empire!");
+  res.send("Contact .....etc");
 });
 
 app.get("/about", function(req, res){
-  res.send("I am the emperor of the histerlion empire.");
+  res.send("Testing purposes");
 });
 
 app.listen(3000, function(){
